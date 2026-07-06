@@ -12,11 +12,17 @@ using Kafka Streams — with an optional MongoDB storage layer.
 - **Git**: local repository initialized (`git init`), branch renamed to `main`, identity configured (`user.name` / `user.email`)
 
 ## Project structure
+
 mini-twitter-kafka/
+
 ├── .gitignore
+
 ├── pom.xml
+
 └── src/main/java/com/manaess/kafka/tweets/
+
 ├── TweetProducer.java
+
 └── TweetConsumer.java
 
 ## What has been done
